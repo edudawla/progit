@@ -1,0 +1,20 @@
+#INSTALANDO O GIT UBUNUTU
+
+sudo apt-get update 
+sudo apt-get install git
+
+git --version #verifica versão
+git config --global user.name "João Silva" #nome usuario
+git config --global user.email "exemplo@seuemail.com.br" #email acesso
+
+#Cria um diretorio para o GIT
+#Entrar no diretorio
+git init <directory>
+
+
+#Clonar um diretorio
+git clone /path/to/local/repository
+
+git add <nome_do_arquivo>
+git commit –m “Adicionar qualquer mensagem sobre o commit aqui”
+
